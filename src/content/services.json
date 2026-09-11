@@ -1,0 +1,356 @@
+[
+  {
+    "id": "student-visa",
+    "slug": "student-visa",
+    "title": "Student Visa",
+    "shortDescription": "Pursue your higher education dreams at world-class global universities with expert guidance.",
+    "description": "Pursuing higher education abroad is a dream for many students who aspire to build successful careers, gain international exposure, and experience diverse cultures. A student visa is the key document that allows you to study legally in your chosen country while opening doors to world-class education and global opportunities",
+    "icon": "GraduationCap",
+    "image": "/images/medium-shot-smiley-couple-with-documents_23-2149272139-1024x683.avif",
+    "features": [
+      "Access to World-Class Education – Study at top-ranked universities and colleges worldwide.",
+      "Work Opportunities – Many countries allow part-time work during studies and full-time work during breaks.",
+      "Post-Study Pathways – Several nations offer post-study work visas, paving the way for career growth and permanent residency options.",
+      "Cultural Exposure – Live and interact in a multicultural environment, enhancing both academic and personal growth"
+    ],
+    "eligibility": [
+      "Valid passport with at least 6 months validity",
+      "Academic credentials with required percentage/GPA",
+      "Proof of English proficiency (IELTS/PTE/TOEFL/Duolingo)",
+      "Acceptance letter/Offer letter from a recognized overseas institution",
+      "Adequate financial funds for tuition and living expenses"
+    ],
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Free Profile Evaluation",
+        "description": "Our senior counselors assess your academic and career goals to suggest the best countries, universities, and courses."
+      },
+      {
+        "step": "02",
+        "title": "Admission & Offer Letter",
+        "description": "We help you apply to multiple universities and secure your confirmed offer letter or I-20/CAS/COE."
+      },
+      {
+        "step": "03",
+        "title": "Visa Documentation",
+        "description": "Meticulous preparation of financial proofs, statements of purpose, and visa file checklist."
+      },
+      {
+        "step": "04",
+        "title": "Visa Grant & Fly",
+        "description": "Complete visa submission, biometric appointment coordination, and pre-departure briefing."
+      }
+    ]
+  },
+  {
+    "id": "permanent-residency-visa",
+    "slug": "permanent-residency-visa",
+    "title": "Permanent Residency Visa",
+    "shortDescription": "Settle permanently in top destination countries like Canada, Australia, and New Zealand with your family.",
+    "description": "Permanent Residency (PR) grants you the legal right to live, work, and study anywhere in your chosen destination country indefinitely, along with access to subsidized healthcare, free child education, and a direct pathway to citizenship. Quantum Overseas specializes in Express Entry, PNP streams, SkillSelect GSM, and State Sponsorship programs.",
+    "icon": "Home",
+    "image": "/images/front-view-travel-agent-sitting-her-working-place-with-plane-tickets-agency-service-global-operator-manager-world-map_140725-155694-1024x682.jpg",
+    "features": [
+      "Comprehensive CRS & Points-Based Evaluation",
+      "Educational Credential Assessment (ECA) / Skills Assessment Assistance",
+      "Express Entry Profile Creation & PNP State Nominations",
+      "Complete PR Dossier Preparation & Police Clearance/Medical Guidance",
+      "Family Dependent Visa Processing"
+    ],
+    "eligibility": [
+      "Age between 18 to 45 years",
+      "Recognized bachelor's degree or higher",
+      "Minimum 1-3 years of skilled work experience",
+      "Required score in language tests (IELTS / CELPIP / PTE)",
+      "Proof of settlement funds for you and dependents"
+    ],
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Points Assessment",
+        "description": "Evaluation of age, qualification, experience, and language proficiency."
+      },
+      {
+        "step": "02",
+        "title": "Skills Assessment / ECA",
+        "description": "Getting your educational degrees and work experience certified by relevant assessing authorities."
+      },
+      {
+        "step": "03",
+        "title": "EOI Submission",
+        "description": "Submitting Expression of Interest in Express Entry or SkillSelect."
+      },
+      {
+        "step": "04",
+        "title": "ITA & Visa Lodgment",
+        "description": "Receiving Invitation to Apply (ITA) and lodging the complete PR visa file."
+      }
+    ]
+  },
+  {
+    "id": "employment-visa",
+    "slug": "employment-visa",
+    "title": "Employment Visa",
+    "shortDescription": "Unlock international career avenues with work permits and employer-sponsored visa options worldwide.",
+    "description": "Working abroad enhances your professional skills and maximizes earning potential. Quantum Overseas assists skilled professionals, technicians, and specialized workers in securing work visas, employer sponsorship applications, and job seeker visas across the UK, Europe, Middle East, Australia, and North America.",
+    "icon": "Briefcase",
+    "image": "/images/hands-holding-tickets-close-up_23-2149080808.avif",
+    "features": [
+      "Work Permit Application & Filing",
+      "Employer Sponsorship Validation & Compliance",
+      "Documentation for Specialized Skills & Trades",
+      "Labor Market Testing & LMIA Compliance Guidance",
+      "Work Visa Renewal & Extension Services"
+    ],
+    "eligibility": [
+      "Valid Job Offer / Sponsorship Certificate from an overseas employer",
+      "Relevant work experience and professional certificates",
+      "Language proficiency appropriate to the role",
+      "Medical clearance and clean criminal record",
+      "Passport with sufficient validity"
+    ],
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Offer Letter & Sponsorship",
+        "description": "Verification of employer sponsorship certificate or labor market approval."
+      },
+      {
+        "step": "02",
+        "title": "Document Verification",
+        "description": "Compiling educational documents, experience letters, and references."
+      },
+      {
+        "step": "03",
+        "title": "Application Filing",
+        "description": "Submission of work permit application with the relevant embassy/consulate."
+      },
+      {
+        "step": "04",
+        "title": "Visa Approval & Onboarding",
+        "description": "Securing your work visa stamp and assisting with relocation logistics."
+      }
+    ]
+  },
+  {
+    "id": "visitor-visa",
+    "slug": "visitor-visa",
+    "title": "Visitor Visa",
+    "shortDescription": "Travel the world for tourism, sightseeing, family visits, or business meetings with hassle-free visa approvals.",
+    "description": "Whether you are traveling for a holiday, visiting family members abroad, or attending international trade exhibitions, our visitor visa experts ensure your travel itinerary, financial documentation, and ties to home country are presented flawlessly for rapid visa approval.",
+    "icon": "Plane",
+    "image": "/images/i-am-here-help-you-with-your-booking-travel-questions-female-sales-agent-holding-plane-tickets-while-smiling-making-eye-contact-travel-agency_662251-2371.avif",
+    "features": [
+      "Tourist Visa & Family Visit Visa Consultation",
+      "Custom Travel Itinerary & Hotel Booking Proofs",
+      "Sponsorship Letter & Invitation Verification",
+      "Strong Proof of Home Country Ties Preparation",
+      "Express & Priority Visa Application Processing"
+    ],
+    "eligibility": [
+      "Valid passport with min. 6 months validity",
+      "Sufficient funds to support the duration of stay",
+      "Clean travel history and immigration compliance",
+      "Invitation letter from host (if visiting relatives/friends)",
+      "Proof of employment/business in home country"
+    ],
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Purpose Assessment",
+        "description": "Understanding your visit purpose (tourism, family visit, short business)."
+      },
+      {
+        "step": "02",
+        "title": "Document Compilation",
+        "description": "Gathering bank statements, tax returns, invitation letter, and itinerary."
+      },
+      {
+        "step": "03",
+        "title": "Consular Filing & Biometrics",
+        "description": "Form filling, fee payment, and booking consular appointment."
+      },
+      {
+        "step": "04",
+        "title": "Visa Dispatch",
+        "description": "Receiving your stamped visitor visa for your journey."
+      }
+    ]
+  },
+  {
+    "id": "business-investor-visa",
+    "slug": "business-investor-visa",
+    "title": "Business / Investor Visa",
+    "shortDescription": "Expand your business globally or gain residency through smart international capital investments.",
+    "description": "Designed for high-net-worth individuals, business owners, and entrepreneurs looking to establish new branches, invest in commercial ventures, or obtain golden visas. We provide customized legal and financial consulting to meet statutory overseas investment criteria.",
+    "icon": "TrendingUp",
+    "image": "/images/medium-shot-people-travel-agency_52683-136451.avif",
+    "features": [
+      "Golden Visa & Residency by Investment Consulting",
+      "Business Plan Preparation & Feasibility Reporting",
+      "Source of Funds Verification & Asset Documentation",
+      "Company Incorporation & Branch Expansion Advisory",
+      "Fast-track Investor Processing"
+    ],
+    "eligibility": [
+      "Legitimate proof of required net worth and investment capital",
+      "Demonstrated track record of business ownership or executive management",
+      "Viable business proposal creating local jobs (for entrepreneur visas)",
+      "Clear source of funds documentation"
+    ],
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Investment Analysis",
+        "description": "Selecting the most profitable country program (UK Innovator, Canada Start-Up, USA EB-5, Dubai Golden Visa)."
+      },
+      {
+        "step": "02",
+        "title": "Business Plan & Due Diligence",
+        "description": "Developing business proposals and completing fund validations."
+      },
+      {
+        "step": "03",
+        "title": "Endorsement & Filing",
+        "description": "Securing endorsing body approval and submitting official investor petition."
+      },
+      {
+        "step": "04",
+        "title": "Residency Grant",
+        "description": "Receiving residency cards for you and family members."
+      }
+    ]
+  },
+  {
+    "id": "family-visa",
+    "slug": "family-visa",
+    "title": "Family Visa",
+    "shortDescription": "Reunite with your spouse, children, and parents abroad through lawful family sponsorship visas.",
+    "description": "Family reunification is a core priority of immigration worldwide. Quantum Overseas guides you through spouse sponsorship, dependent child visas, parent super visas, and family reunion petitions with compassionate, thorough legal documentation.",
+    "icon": "Users",
+    "image": "/images/young-family-three-posing-together-before-travel-vacation_23-2149205286-1024x682.jpg",
+    "features": [
+      "Spouse & Partner Visa Processing",
+      "Dependent Children Sponsorship",
+      "Parent & Grandparent Super Visa / Visas",
+      "Genuine Relationship Proof Compilation",
+      "Financial Sponsorship Assessment"
+    ],
+    "eligibility": [
+      "Sponsor must be a citizen or permanent resident of the destination country",
+      "Documented proof of genuine relationship (marriage certificate, birth certificate)",
+      "Sponsor meets minimum necessary income requirements",
+      "Medical and character clearances for applicants"
+    ],
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Eligibility Audit",
+        "description": "Checking sponsor income criteria and applicant relationship documentation."
+      },
+      {
+        "step": "02",
+        "title": "Relationship Evidence",
+        "description": "Compiling photographs, joint accounts, communication logs, and affidavits."
+      },
+      {
+        "step": "03",
+        "title": "Sponsorship Lodgment",
+        "description": "Filing the sponsorship and visa application simultaneously."
+      },
+      {
+        "step": "04",
+        "title": "Family Reunion",
+        "description": "Grant of family visa allowing permanent or long-term residence."
+      }
+    ]
+  },
+  {
+    "id": "other-visa-programs",
+    "slug": "other-visa-programs",
+    "title": "Other Visa Programs",
+    "shortDescription": "Tailored immigration pathways including transit visas, working holiday visas, and special permits.",
+    "description": "Explore specialized visa categories such as Working Holiday programs, exchange visitor programs, post-study work permits, and specialized category permits across multiple global destinations.",
+    "icon": "Globe",
+    "image": "/images/visa-application-form-laptop_23-2149117780-1024x682.jpg",
+    "features": [
+      "Post Study Work Permit (PSW / PGWP)",
+      "Working Holiday Visa Assistance",
+      "Transit Visa Guidance",
+      "Exchange Visitor & Cultural Programs",
+      "Appeal & Visa Refusal Case Review"
+    ],
+    "eligibility": [
+      "Requirements depend on the specific program and host country",
+      "Valid travel documents and meeting age/skill criteria",
+      "Proof of intent to abide by visa conditions"
+    ],
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Case Analysis",
+        "description": "Reviewing your unique background and goals."
+      },
+      {
+        "step": "02",
+        "title": "Custom Strategy",
+        "description": "Mapping the most reliable legal visa route."
+      },
+      {
+        "step": "03",
+        "title": "Filing & Coordination",
+        "description": "Ensuring precision in all legal paperwork."
+      },
+      {
+        "step": "04",
+        "title": "Visa Issuance",
+        "description": "Successful granting of your travel permit."
+      }
+    ]
+  },
+  {
+    "id": "business-visa-2",
+    "slug": "business-visa-2",
+    "title": "Business Visa",
+    "shortDescription": "Facilitating international corporate travel, client negotiations, and global trade operations.",
+    "description": "For professionals and corporate teams traveling abroad for business meetings, conferences, signing agreements, or site inspections. We ensure swift turnaround times and high visa approval rates.",
+    "icon": "Briefcase",
+    "image": "/images/details-1-2-1024x543.jpg",
+    "features": [
+      "Corporate Delegation Visa Filing",
+      "Business Conference & Trade Fair Registration Proofs",
+      "Company Sponsorship & Guarantee Letters",
+      "Urgent Visa Appointments & Fast-Track Lodgment",
+      "Multiple Entry Long-Term Business Visas"
+    ],
+    "eligibility": [
+      "Official letter of invitation from foreign business partner",
+      "Deputation letter from Indian company",
+      "Proof of company registration and financials",
+      "Valid passport and travel schedule"
+    ],
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Invitation Verification",
+        "description": "Validating the foreign partner's invitation letter."
+      },
+      {
+        "step": "02",
+        "title": "Company Paperwork",
+        "description": "Gathering company bank statements and GST/tax documents."
+      },
+      {
+        "step": "03",
+        "title": "Application Filing",
+        "description": "Submitting online application and biometric slot."
+      },
+      {
+        "step": "04",
+        "title": "Visa Stamping",
+        "description": "Delivery of multi-entry business visa."
+      }
+    ]
+  }
+]

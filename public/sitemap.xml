@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://quantumoverseas.in/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://quantumoverseas.in/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quantumoverseas.in/services</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://quantumoverseas.in/countries</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://quantumoverseas.in/coaching</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quantumoverseas.in/team-members</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://quantumoverseas.in/faqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://quantumoverseas.in/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quantumoverseas.in/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Services -->
+  <url><loc>https://quantumoverseas.in/service-details/student-visa</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/service-details/permanent-residency-visa</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/service-details/employment-visa</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/service-details/visitor-visa</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/service-details/business-investor-visa</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/service-details/family-visa</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/service-details/other-visa-programs</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/service-details/business-visa-2</loc><priority>0.8</priority></url>
+  <!-- Countries -->
+  <url><loc>https://quantumoverseas.in/countries/united-kingdom</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/countries/canada</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/countries/united-states-of-america</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/countries/europe</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/countries/australia</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/countries/new-zealand</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/countries/dubai</loc><priority>0.8</priority></url>
+  <url><loc>https://quantumoverseas.in/countries/singapore</loc><priority>0.8</priority></url>
+  <!-- Coaching -->
+  <url><loc>https://quantumoverseas.in/project-details/ielts-course</loc><priority>0.7</priority></url>
+  <url><loc>https://quantumoverseas.in/project-details/ielts-course-2</loc><priority>0.7</priority></url>
+  <!-- Team -->
+  <url><loc>https://quantumoverseas.in/team-details/mr-jignesh-mehta</loc><priority>0.6</priority></url>
+  <url><loc>https://quantumoverseas.in/team-details/mr-sahil-shelat</loc><priority>0.6</priority></url>
+  <url><loc>https://quantumoverseas.in/team-details/mr-ankur-shah</loc><priority>0.6</priority></url>
+  <url><loc>https://quantumoverseas.in/team-details/mr-chintan-kothari</loc><priority>0.6</priority></url>
+  <url><loc>https://quantumoverseas.in/team-details/devid-miller-2</loc><priority>0.6</priority></url>
+</urlset>

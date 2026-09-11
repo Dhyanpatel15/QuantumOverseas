@@ -1,0 +1,206 @@
+[
+  {
+    "url": "https://quantumoverseas.in/",
+    "path": "/",
+    "slug": "home",
+    "title": "Home"
+  },
+  {
+    "url": "https://quantumoverseas.in/about/",
+    "path": "/about/",
+    "slug": "about",
+    "title": "About Us"
+  },
+  {
+    "url": "https://quantumoverseas.in/services/",
+    "path": "/services/",
+    "slug": "services",
+    "title": "Visa"
+  },
+  {
+    "url": "https://quantumoverseas.in/countries/",
+    "path": "/countries/",
+    "slug": "countries",
+    "title": "Countries"
+  },
+  {
+    "url": "https://quantumoverseas.in/coaching/",
+    "path": "/coaching/",
+    "slug": "coaching",
+    "title": "Coaching"
+  },
+  {
+    "url": "https://quantumoverseas.in/team-members/",
+    "path": "/team-members/",
+    "slug": "team-members",
+    "title": "Team Members"
+  },
+  {
+    "url": "https://quantumoverseas.in/faqs/",
+    "path": "/faqs/",
+    "slug": "faqs",
+    "title": "FAQ's"
+  },
+  {
+    "url": "https://quantumoverseas.in/contact/",
+    "path": "/contact/",
+    "slug": "contact",
+    "title": "Contact Us"
+  },
+  {
+    "url": "https://quantumoverseas.in/blog/",
+    "path": "/blog/",
+    "slug": "blog",
+    "title": "Blog"
+  },
+  {
+    "url": "https://quantumoverseas.in/blog-grid/",
+    "path": "/blog-grid/",
+    "slug": "blog-grid",
+    "title": "Blog Grid"
+  },
+  {
+    "url": "https://quantumoverseas.in/coming-soon/",
+    "path": "/coming-soon/",
+    "slug": "coming-soon",
+    "title": "Coming Soon"
+  },
+  {
+    "url": "https://quantumoverseas.in/service-details/student-visa/",
+    "path": "/service-details/student-visa/",
+    "slug": "student-visa",
+    "title": "Student Visa"
+  },
+  {
+    "url": "https://quantumoverseas.in/service-details/permanent-residency-visa/",
+    "path": "/service-details/permanent-residency-visa/",
+    "slug": "permanent-residency-visa",
+    "title": "Permanent Residency Visa"
+  },
+  {
+    "url": "https://quantumoverseas.in/service-details/employment-visa/",
+    "path": "/service-details/employment-visa/",
+    "slug": "employment-visa",
+    "title": "Employment Visa"
+  },
+  {
+    "url": "https://quantumoverseas.in/service-details/visitor-visa/",
+    "path": "/service-details/visitor-visa/",
+    "slug": "visitor-visa",
+    "title": "Visitor Visa"
+  },
+  {
+    "url": "https://quantumoverseas.in/service-details/business-investor-visa/",
+    "path": "/service-details/business-investor-visa/",
+    "slug": "business-investor-visa",
+    "title": "Business / Investor Visa"
+  },
+  {
+    "url": "https://quantumoverseas.in/service-details/family-visa/",
+    "path": "/service-details/family-visa/",
+    "slug": "family-visa",
+    "title": "Family Visa"
+  },
+  {
+    "url": "https://quantumoverseas.in/service-details/other-visa-programs/",
+    "path": "/service-details/other-visa-programs/",
+    "slug": "other-visa-programs",
+    "title": "Other Visa Programs"
+  },
+  {
+    "url": "https://quantumoverseas.in/service-details/business-visa-2/",
+    "path": "/service-details/business-visa-2/",
+    "slug": "business-visa-2",
+    "title": "Business Visa"
+  },
+  {
+    "url": "https://quantumoverseas.in/countries/united-kingdom/",
+    "path": "/countries/united-kingdom/",
+    "slug": "united-kingdom",
+    "title": "United Kingdom"
+  },
+  {
+    "url": "https://quantumoverseas.in/countries/canada/",
+    "path": "/countries/canada/",
+    "slug": "canada",
+    "title": "Canada"
+  },
+  {
+    "url": "https://quantumoverseas.in/countries/united-states-of-america/",
+    "path": "/countries/united-states-of-america/",
+    "slug": "united-states-of-america",
+    "title": "United States of America"
+  },
+  {
+    "url": "https://quantumoverseas.in/countries/europe/",
+    "path": "/countries/europe/",
+    "slug": "europe",
+    "title": "Europe"
+  },
+  {
+    "url": "https://quantumoverseas.in/countries/australia/",
+    "path": "/countries/australia/",
+    "slug": "australia",
+    "title": "Australia"
+  },
+  {
+    "url": "https://quantumoverseas.in/countries/new-zealand/",
+    "path": "/countries/new-zealand/",
+    "slug": "new-zealand",
+    "title": "New Zealand"
+  },
+  {
+    "url": "https://quantumoverseas.in/countries/dubai/",
+    "path": "/countries/dubai/",
+    "slug": "dubai",
+    "title": "Dubai"
+  },
+  {
+    "url": "https://quantumoverseas.in/countries/singapore/",
+    "path": "/countries/singapore/",
+    "slug": "singapore",
+    "title": "Singapore"
+  },
+  {
+    "url": "https://quantumoverseas.in/project-details/ielts-course/",
+    "path": "/project-details/ielts-course/",
+    "slug": "ielts-course",
+    "title": "IELTS Course"
+  },
+  {
+    "url": "https://quantumoverseas.in/project-details/ielts-course-2/",
+    "path": "/project-details/ielts-course-2/",
+    "slug": "ielts-course-2",
+    "title": "IELTS Course 2"
+  },
+  {
+    "url": "https://quantumoverseas.in/team-details/mr-jignesh-mehta/",
+    "path": "/team-details/mr-jignesh-mehta/",
+    "slug": "mr-jignesh-mehta",
+    "title": "Mr. Jignesh Mehta"
+  },
+  {
+    "url": "https://quantumoverseas.in/team-details/mr-sahil-shelat/",
+    "path": "/team-details/mr-sahil-shelat/",
+    "slug": "mr-sahil-shelat",
+    "title": "Mr. Sahil Shelat"
+  },
+  {
+    "url": "https://quantumoverseas.in/team-details/mr-ankur-shah/",
+    "path": "/team-details/mr-ankur-shah/",
+    "slug": "mr-ankur-shah",
+    "title": "Mr. Ankur Shah"
+  },
+  {
+    "url": "https://quantumoverseas.in/team-details/mr-chintan-kothari/",
+    "path": "/team-details/mr-chintan-kothari/",
+    "slug": "mr-chintan-kothari",
+    "title": "Mr. Chintan Kothari"
+  },
+  {
+    "url": "https://quantumoverseas.in/team-details/devid-miller-2/",
+    "path": "/team-details/devid-miller-2/",
+    "slug": "devid-miller-2",
+    "title": "Devid Miller"
+  }
+]

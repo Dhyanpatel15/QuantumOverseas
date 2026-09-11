@@ -1,0 +1,27 @@
+{
+  "colors": {
+    "primary": "#e20935",
+    "primaryHover": "#c0072c",
+    "secondary": "#101A29",
+    "secondaryDark": "#0b121c",
+    "accent": "#246BFD",
+    "accentHover": "#1a54cc",
+    "dark": "#16171a",
+    "heading": "#0F0D1D",
+    "bodyText": "#585858",
+    "mutedText": "#8A8C94",
+    "lightBg": "#f5f5f7",
+    "white": "#FFFFFF",
+    "border": "#eeeff4",
+    "cardBg": "#FFFFFF"
+  },
+  "fonts": {
+    "sans": "Inter, system-ui, -apple-system, sans-serif",
+    "heading": "Inter, system-ui, -apple-system, sans-serif",
+    "roboto": "Roboto, sans-serif"
+  },
+  "spacing": {
+    "sectionPadding": "py-20 md:py-28",
+    "containerMaxWidth": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+  }
+}

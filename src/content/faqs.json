@@ -1,0 +1,62 @@
+[
+  {
+    "category": "General & Immigration",
+    "items": [
+      {
+        "question": "Why should I choose Quantum Overseas for my immigration and study abroad needs?",
+        "answer": "Quantum Overseas is a premier, transparent, and result-oriented overseas consultancy. With over 15 years of industry leadership, 98% visa success rate, partnerships with 500+ global universities, certified counselors, and end-to-end support (from coaching to post-landing), we make your international journey smooth and stress-free."
+      },
+      {
+        "question": "What is the typical timeline for receiving a student visa or PR visa?",
+        "answer": "Student visas typically take between 2 to 6 weeks after submission depending on the country (e.g., UK Priority is 5-7 days, Canada SDS is 3-4 weeks, USA is granted immediately upon interview). Permanent Residency (PR) processing varies from 6 to 12 months for Express Entry and 8 to 14 months for Australian GSM."
+      },
+      {
+        "question": "Do you offer free profile evaluation?",
+        "answer": "Yes, we offer a 100% free, comprehensive profile evaluation where our senior immigration advisors assess your qualifications, work experience, financial standing, and language scores to recommend the best pathway."
+      }
+    ]
+  },
+  {
+    "category": "Student Visa & Education",
+    "items": [
+      {
+        "question": "Can I study abroad without IELTS?",
+        "answer": "Yes! Several top universities in the UK, Europe, Dubai, and USA accept students without IELTS if you scored 65%+ in Class 12th English, hold a Medium of Instruction (MOI) certificate from an English-medium university, or pass the university's internal English test/PTE/Duolingo."
+      },
+      {
+        "question": "Are international students allowed to work while studying?",
+        "answer": "Yes. Most countries (UK, Canada, Australia, Ireland, New Zealand, USA on-campus) permit international students to work part-time (up to 20 to 24 hours per week) during semester terms and full-time (40 hours per week) during holidays and scheduled breaks."
+      },
+      {
+        "question": "What are Post-Study Work (PSW) visa options available?",
+        "answer": "The UK offers a 2-year Graduate Route, Canada provides up to 3-year PGWP, Australia offers 2 to 4+ years 485 Temporary Graduate Visa, New Zealand provides 3-year post-study work visa, and USA provides up to 3 years STEM OPT."
+      }
+    ]
+  },
+  {
+    "category": "Coaching & Test Preparation",
+    "items": [
+      {
+        "question": "How long are the IELTS and PTE coaching batches at Quantum Overseas?",
+        "answer": "Our comprehensive IELTS/PTE course runs for 8 to 12 weeks. We also offer an intensive 4-week fast-track crash course for quick exam takers and retakers. Both weekday and weekend batches are available in online and offline modes."
+      },
+      {
+        "question": "Are mock tests included in the coaching program?",
+        "answer": "Yes, students receive unlimited access to full-length computer-delivered mock tests, authentic exam simulation software, personalized 1-on-1 speaking interviews with trainers, and detailed writing task evaluations."
+      }
+    ]
+  },
+  {
+    "category": "Visitor & Work Visas",
+    "items": [
+      {
+        "question": "What documents are most important for visitor visa approvals?",
+        "answer": "The most critical elements are strong financial capability (bank statements, ITRs), clear purpose of visit, confirmed travel itinerary, invitation letter (if visiting family/friends), and strong evidence of ties to India (property, employment, business, family) showing you will return before visa expiry."
+      },
+      {
+        "question": "Can I convert my visitor visa to a work visa or student visa?",
+        "answer": "Certain countries (like Canada, UAE, New Zealand) have policies allowing visitor visa holders with a valid job offer or university admission to apply for a work permit or study permit inside the country without returning home."
+      }
+    ]
+  }
+]

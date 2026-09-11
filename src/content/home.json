@@ -1,0 +1,111 @@
+{
+  "heroSlides": [
+    {
+      "badge": "Your Most Trusted Partners",
+      "title": "Immigration & \nVisa Consulting \nHere...",
+      "description": "Quantum Overseas is the world’s driving worldwide coordinations supplier we uphold industry and exchange the worldwide trade of merchandi",
+      "ctaText": "Learn More",
+      "ctaLink": "/contact",
+      "bgImage": "/images/hero-1.jpg"
+    },
+    {
+      "badge": "Your Most Trusted Partners",
+      "title": "Immigration & \nVisa Consulting \nHere...",
+      "description": "Quantum Overseas is the world’s driving worldwide coordinations supplier we uphold industry and exchange the worldwide trade of merchandi",
+      "ctaText": "Learn More",
+      "ctaLink": "/contact",
+      "bgImage": "/images/hero-2.jpg"
+    },
+    {
+      "badge": "Your Most Trusted Partners",
+      "title": "Immigration & \nVisa Consulting \nHere...",
+      "description": "Quantum Overseas is the world’s driving worldwide coordinations supplier we uphold industry and exchange the worldwide trade of merchandi",
+      "ctaText": "Learn More",
+      "ctaLink": "/contact",
+      "bgImage": "/images/hero-3.jpg"
+    }
+  ],
+  "aboutCompany": {
+    "subtitle": "ABOUT COMPANY",
+    "title": "Welcome To Experience Visa Consulting Firm",
+    "paragraph1": "Quantum Overseas was established in 2011 in Ahmedabad, the metro city of Gujarat, INDIA. We celebrated our 12th year and are now looking forward to continuing our history of providing high quality and professional advice for parents and their children who would like to study abroad and clients who wish to migrate to foreign countries. Apart from Student and PR, we provide end to end Passport and Visa Solutions for business and leisure clients. Additionally, our expertise lies in solving refused clients with our expert team of lawyers and solicitors.",
+    "paragraph2": "Quantum Overseas is now Quantum Overseas LLP and is now registered with the Registrar of Companies, Ministry of Corporate Affairs since August 2023.",
+    "experienceYears": "25",
+    "image": "/images/about-new.jpg"
+  },
+  "comprehensiveSolutions": [
+    { "title": "Passport", "icon": "passport" },
+    { "title": "Visa Consultation Services", "icon": "consult" },
+    { "title": "Visa Documentation", "icon": "doc" },
+    { "title": "Coaching Services (Online)", "icon": "coaching" },
+    { "title": "Financial Assistance", "icon": "finance" },
+    { "title": "Visa Submission & Interview Preparation If Required", "icon": "interview" },
+    { "title": "Post Visa Services: Air Tickets, Overseas Travel / Health Insurance, Foreign Exchange Services, Assistance in Hotel / Hostel Booking", "icon": "postvisa" },
+    { "title": "Post Landing Services: Airport Pick Up Assistance, Bank Account Opening, Local Health, Tax And Other Government Registrations, Visa Extension Services, Citizenship Application Assistance", "icon": "postlanding" },
+    { "title": "FRRO Services", "icon": "frro" }
+  ],
+  "youWontRegret": {
+    "subtitle": "YOUR DECISION, OUR PROVEN EXCELLENCE",
+    "title": "You Won't Regret Hiring Us",
+    "points": [
+      "Highly Qualified Team of Consultants, Lawyers & Solicitors",
+      "Professional, Friendly, Personal, Innovation, Hassle-Free Service",
+      "Understanding the client's requirements and offer solution accordingly.",
+      "Keeping down costs",
+      "Strategic Inputs, planning and execution with back-up plans",
+      "Perfect Solution",
+      "Having Wide Agent Network Pan India"
+    ]
+  },
+  "ourApproach": {
+    "subtitle": "OUR APPROACH",
+    "title": "Strategic, Transparent, And Result-Driven",
+    "intro": "Meeting Client has a simple approach to the meeting management business :",
+    "points": [
+      "Put the client first, exceed expectations at every turn and develop long-term relationships.",
+      "We providing input based on years of industry expertise and ensuring a successful Visa that meets your Requirements.",
+      "Planning Phase",
+      "Implementation Phase",
+      "Execution Phase"
+    ]
+  },
+  "beyondExpectations": {
+    "subtitle": "WE BELIEVE IN DELIVERING...",
+    "title": "We Believe In Delivering Beyond Expectations",
+    "points": [
+      "Result Oriented Solutions",
+      "Value for Money",
+      "Dedicated Professionals Case to Case",
+      "Time Saving (Completing the work by visiting our Branch Offices.)",
+      "Micro Level Documentation For the Positive Visa Outcome.",
+      "Best in Market Associates for Relevant Services During the Entire Visa Process.",
+      "Hassle Free Visa Submission.",
+      "Timely Visa Outcome",
+      "In-Depth Pre Departure Briefing.",
+      "Hassle Free Post Landing Settlement Services (Through our International Channel Partners.)",
+      "Visa Extension Services"
+    ]
+  },
+  "discussBanner": {
+    "title": "Let's Discuss & Start Visa Consultations",
+    "subtitle": "Connect with our experts today to discuss your visa needs and begin personalized consultation services.",
+    "buttonText": "Lets Get Started",
+    "buttonLink": "/contact"
+  },
+  "ctaBanner": {
+    "title": "Start Your International Journey Today",
+    "subtitle": "Get free profile evaluation and expert visa guidance from Ahmedabad's top consultants.",
+    "buttonText": "Book Free Consultation",
+    "buttonLink": "/contact"
+  },
+  "workingProcess": {
+    "subtitle": "WORKING PROCESS",
+    "title": "4 Step Follow You Can Get Your Visa Easily",
+    "steps": [
+      { "step": "1", "title": "Choose A Service", "icon": "service" },
+      { "step": "2", "title": "Documents And Payments", "icon": "documents" },
+      { "step": "3", "title": "Request A Meeting", "icon": "meeting" },
+      { "step": "4", "title": "Receive Your Visa Now", "icon": "visa" }
+    ]
+  }
+}

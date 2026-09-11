@@ -1,0 +1,144 @@
+{
+  "brand": {
+    "name": "Quantum Overseas",
+    "tagline": "Fly High With Us - Immigration & Visa Consulting",
+    "logo": "/images/quntom-logo-scaled-e1759320289690.png",
+    "favicon": "/images/cropped-cropped-Q-LOGO-192x192.png",
+    "copyright": "\u00a9 2025 Quantum Overseas. All Rights Reserved."
+  },
+  "contact": {
+    "phone": "+91 999 8335 441",
+    "phoneLink": "tel:+919998335441",
+    "email": "info@quantumoverseas.in",
+    "emailLink": "mailto:info@quantumoverseas.in",
+    "address": "Block G, 304 Titanium Business Centre, Prahladnagar, Ahmedabad, Gujarat, India",
+    "workingHours": "Mon - Sat: 10:00 AM - 7:00 PM (Sunday Closed)",
+    "whatsapp": "+919998335441",
+    "whatsappLink": "https://wa.me/919998335441"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/quantumoverseas2023?igsh=aG1waDZxNXRicnoy",
+    "facebook": "https://www.facebook.com/share/1Csx2J96p8/",
+    "whatsapp": "https://wa.me/919998335441"
+  },
+  "navigation": [
+    {
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "name": "About",
+      "path": "/about"
+    },
+    {
+      "name": "Visa Services",
+      "path": "/services",
+      "children": [
+        {
+          "name": "Student Visa",
+          "path": "/service-details/student-visa"
+        },
+        {
+          "name": "Permanent Residency Visa",
+          "path": "/service-details/permanent-residency-visa"
+        },
+        {
+          "name": "Employment Visa",
+          "path": "/service-details/employment-visa"
+        },
+        {
+          "name": "Visitor Visa",
+          "path": "/service-details/visitor-visa"
+        },
+        {
+          "name": "Business / Investor Visa",
+          "path": "/service-details/business-investor-visa"
+        },
+        {
+          "name": "Family Visa",
+          "path": "/service-details/family-visa"
+        },
+        {
+          "name": "Other Visa Programs",
+          "path": "/service-details/other-visa-programs"
+        }
+      ]
+    },
+    {
+      "name": "Countries",
+      "path": "/countries",
+      "children": [
+        {
+          "name": "United Kingdom",
+          "path": "/countries/united-kingdom"
+        },
+        {
+          "name": "Canada",
+          "path": "/countries/canada"
+        },
+        {
+          "name": "United States of America",
+          "path": "/countries/united-states-of-america"
+        },
+        {
+          "name": "Europe",
+          "path": "/countries/europe"
+        },
+        {
+          "name": "Australia",
+          "path": "/countries/australia"
+        },
+        {
+          "name": "New Zealand",
+          "path": "/countries/new-zealand"
+        },
+        {
+          "name": "Dubai",
+          "path": "/countries/dubai"
+        },
+        {
+          "name": "Singapore",
+          "path": "/countries/singapore"
+        }
+      ]
+    },
+    {
+      "name": "Coaching",
+      "path": "/coaching",
+      "children": [
+        {
+          "name": "IELTS Coaching",
+          "path": "/project-details/ielts-coaching"
+        },
+        {
+          "name": "PTE Academic",
+          "path": "/project-details/pte-academic"
+        },
+        {
+          "name": "TOEFL iBT",
+          "path": "/project-details/toefl-ibt"
+        },
+        {
+          "name": "Duolingo English Test",
+          "path": "/project-details/duolingo-english-test"
+        }
+      ]
+    },
+    {
+      "name": "Our Team",
+      "path": "/team-members"
+    },
+    {
+      "name": "FAQ's",
+      "path": "/faqs"
+    },
+    {
+      "name": "Blog",
+      "path": "/blog"
+    },
+    {
+      "name": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "title": "Coaching & Test Preparation",
+  "tagline": "Achieve your target test score with our certified master trainers",
+  "description": "At Quantum Overseas, our experienced faculty provides rigorous test preparation courses tailored for IELTS, PTE, TOEFL, and GRE exams. We provide interactive classroom coaching, online live lectures, mock tests, and 1-on-1 speaking practice sessions to guarantee high band scores.",
+  "stats": [
+    {
+      "value": "8.0+",
+      "label": "Avg IELTS Band"
+    },
+    {
+      "value": "98%",
+      "label": "Exam Success Rate"
+    },
+    {
+      "value": "1500+",
+      "label": "Students Trained"
+    },
+    {
+      "value": "50+",
+      "label": "Weekly Mock Tests"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ielts-course",
+      "slug": "ielts-course",
+      "title": "IELTS Comprehensive Masterclass (Academic & General)",
+      "tagline": "Master all 4 modules (Listening, Reading, Writing, Speaking) with certified British Council & IDP trained faculty.",
+      "duration": "8 - 12 Weeks",
+      "batchTimings": "Morning (8:00 AM - 10:00 AM) | Evening (6:00 PM - 8:00 PM) | Weekend Batches Available",
+      "features": [
+        "Daily live interactive classes with expert instructors",
+        "Full-length computer-delivered and paper-based mock tests",
+        "Personalized 1-on-1 speaking interview practice sessions",
+        "Detailed evaluation and scoring of writing tasks (Task 1 & Task 2)",
+        "Comprehensive grammar, vocabulary, and lexical resource workshops",
+        "Access to exclusive updated test material & Cambridge practice papers"
+      ],
+      "modules": [
+        {
+          "name": "Listening",
+          "desc": "Strategies for section 1 to 4, accent comprehension, note-taking techniques, and distraction avoidance."
+        },
+        {
+          "name": "Reading",
+          "desc": "Skimming, scanning, True/False/Not Given mastery, headings matching, and speed reading strategies."
+        },
+        {
+          "name": "Writing",
+          "desc": "Task 1 structure (Graphs, Maps, Processes / Letters) and Task 2 essay templates, coherence, and lexical variety."
+        },
+        {
+          "name": "Speaking",
+          "desc": "Part 1, 2 (Cue cards), and Part 3 discussion strategies, fluency drills, and pronunciation correction."
+        }
+      ]
+    },
+    {
+      "id": "ielts-course-2",
+      "slug": "ielts-course-2",
+      "title": "IELTS Fast-Track Crash Course",
+      "tagline": "Targeted 4-week intensive coaching for retakers and quick test readiness.",
+      "duration": "4 Weeks",
+      "batchTimings": "Daily 2 Hours Intensive + Unlimited Weekend Mock Tests",
+      "features": [
+        "Rapid band score enhancement techniques",
+        "Strict time management and mock simulation under actual exam conditions",
+        "Daily speaking cue-card drills and writing task reviews",
+        "Dedicated weakness rectification sessions"
+      ],
+      "modules": [
+        {
+          "name": "Listening & Reading Crash",
+          "desc": "Focus on high-error question types and speed drills."
+        },
+        {
+          "name": "Writing Task 1 & 2 Boost",
+          "desc": "Scoring criteria breakdown: Task Achievement, Cohesion, Grammar."
+        },
+        {
+          "name": "Speaking Fluency Drills",
+          "desc": "Live mock interviews with detailed band feedback."
+        }
+      ]
+    },
+    {
+      "id": "pte-academic",
+      "slug": "pte-academic",
+      "title": "PTE Academic Coaching",
+      "tagline": "AI-based automated scoring tips and templates to score 79+ in PTE Academic.",
+      "duration": "6 - 8 Weeks",
+      "batchTimings": "Flexible Morning & Evening Online/Offline Slots",
+      "features": [
+        "Official PTE software practice and scoring simulator",
+        "Proven templates for Describe Image and Retell Lecture",
+        "Repeat Sentence and Write from Dictation memory techniques",
+        "Mic testing and AI speech recognition pitch training"
+      ],
+      "modules": [
+        {
+          "name": "Speaking & Writing",
+          "desc": "Read Aloud, Repeat Sentence, Describe Image, Summarize Written Text, Essay."
+        },
+        {
+          "name": "Reading",
+          "desc": "Fill in the Blanks, Re-order Paragraphs, Multiple Choice."
+        },
+        {
+          "name": "Listening",
+          "desc": "Summarize Spoken Text, Write from Dictation, Highlight Incorrect Words."
+        }
+      ]
+    },
+    {
+      "id": "toefl-gre",
+      "slug": "toefl-gre",
+      "title": "TOEFL iBT & GRE Coaching",
+      "tagline": "Specialized coaching for top USA and European university admissions.",
+      "duration": "8 - 12 Weeks",
+      "batchTimings": "Evening and Weekend Dedicated Batches",
+      "features": [
+        "Complete Quantitative Reasoning, Verbal Reasoning, and AWA prep for GRE",
+        "Integrated TOEFL writing and speaking response templates",
+        "Sectional diagnostic tests and progress monitoring"
+      ],
+      "modules": [
+        {
+          "name": "Quantitative & Verbal",
+          "desc": "Arithmetic, Algebra, Geometry, Data Analysis, Vocabulary mastery."
+        },
+        {
+          "name": "Analytical Writing",
+          "desc": "Issue analysis and argument critiques."
+        }
+      ]
+    }
+  ]
+}

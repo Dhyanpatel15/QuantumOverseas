@@ -1,0 +1,271 @@
+[
+  {
+    "id": "united-kingdom",
+    "slug": "united-kingdom",
+    "name": "United Kingdom",
+    "tagline": "Home to World-Renowned Universities & Rich Academic Heritage",
+    "capital": "London",
+    "currency": "GBP (\u00a3)",
+    "language": "English",
+    "flag": "\ud83c\uddec\ud83c\udde7",
+    "image": "/images/United-Kingdom-UK.jpg",
+    "overview": "The UK is globally acclaimed for its historic institutions (Oxford, Cambridge, Russell Group), 1-year master's degrees, diverse culture, and generous 2-year Graduate Route Post-Study Work Permit.",
+    "popularUniversities": [
+      "University of Oxford & Cambridge",
+      "Imperial College London",
+      "University of Manchester",
+      "University of Edinburgh",
+      "King's College London",
+      "University of Warwick",
+      "University of Birmingham"
+    ],
+    "keyBenefits": [
+      "1-Year Master's and 3-Year Bachelor's Programs save time and tuition fees",
+      "2-Year Post-Study Work Visa (Graduate Route)",
+      "Part-time work permitted up to 20 hrs/week during term time",
+      "Globally recognized degrees respected by employers worldwide",
+      "NHS healthcare benefits for international students"
+    ],
+    "admissionRequirements": [
+      "Minimum 55-60% in Bachelor's for PG / Higher Secondary for UG",
+      "IELTS score of 6.0 - 6.5 (Many universities offer IELTS waivers based on Class 12th English score)",
+      "Valid passport and updated resume",
+      "SOP and 2 Letters of Recommendation"
+    ]
+  },
+  {
+    "id": "canada",
+    "slug": "canada",
+    "name": "Canada",
+    "tagline": "World Leader in Immigration, Quality Education & PR Pathways",
+    "capital": "Ottawa",
+    "currency": "CAD ($)",
+    "language": "English & French",
+    "flag": "\ud83c\udde8\ud83c\udde6",
+    "image": "/images/Canada.jpg",
+    "overview": "Canada offers world-class education, affordable tuition fees, safe and welcoming multicultural cities, and the most transparent pathway to Permanent Residency through PGWP and Express Entry.",
+    "popularUniversities": [
+      "University of Toronto",
+      "University of British Columbia",
+      "McGill University",
+      "University of Waterloo",
+      "York University",
+      "Seneca Polytechnic",
+      "Humber College"
+    ],
+    "keyBenefits": [
+      "Up to 3-Year Post-Graduation Work Permit (PGWP)",
+      "Clear pathways to Permanent Residency through Express Entry and Provincial Nominee Programs (PNP)",
+      "Affordable cost of living and tuition compared to USA",
+      "Spouse open work permit options",
+      "Safe, clean, and top-ranked quality of life"
+    ],
+    "admissionRequirements": [
+      "Minimum 55-65% in previous academics",
+      "IELTS / PTE / TOEFL score (IELTS 6.0/6.5 overall)",
+      "GIC (Guaranteed Investment Certificate) for living expenses",
+      "Clean medical exam and police clearance"
+    ]
+  },
+  {
+    "id": "united-states-of-america",
+    "slug": "united-states-of-america",
+    "name": "United States of America",
+    "tagline": "The Pinnacle of Higher Education, Innovation & Global Opportunities",
+    "capital": "Washington, D.C.",
+    "currency": "USD ($)",
+    "language": "English",
+    "flag": "\ud83c\uddfa\ud83c\uddf8",
+    "image": "/images/United-States-of-America-USA.jpg",
+    "overview": "The USA hosts the majority of the world's top 100 universities, unparalleled research funding, Silicon Valley tech ecosystems, and 3-Year STEM OPT work authorization.",
+    "popularUniversities": [
+      "MIT & Harvard University",
+      "Stanford University",
+      "University of California (Berkeley / UCLA)",
+      "Columbia University",
+      "New York University (NYU)",
+      "Purdue University",
+      "University of Texas at Dallas"
+    ],
+    "keyBenefits": [
+      "Up to 3 Years STEM OPT (Optional Practical Training) work authorization",
+      "Vast choice of over 4,000 accredited universities and colleges",
+      "Abundant scholarship, assistantship (TA/RA), and on-campus work opportunities",
+      "Global tech and financial hub with highest starting salaries",
+      "Cutting-edge research infrastructure"
+    ],
+    "admissionRequirements": [
+      "Good academic record (GPA 3.0+)",
+      "IELTS / TOEFL / Duolingo / GRE / GMAT (where applicable)",
+      "Financial documentation demonstrating 1st year tuition + living funds",
+      "Compelling SOP and strong recommendation letters"
+    ]
+  },
+  {
+    "id": "australia",
+    "slug": "australia",
+    "name": "Australia",
+    "tagline": "Top Quality Lifestyle, World-Class Universities & Strong Job Market",
+    "capital": "Canberra",
+    "currency": "AUD ($)",
+    "language": "English",
+    "flag": "\ud83c\udde6\ud83c\uddfa",
+    "image": "/images/Australia.jpg",
+    "overview": "Australia combines top Group of Eight (Go8) universities, high standard of living, beautiful climate, and generous Temporary Graduate Work Visas with strong migration pathways in regional areas.",
+    "popularUniversities": [
+      "University of Melbourne",
+      "University of Sydney",
+      "Australian National University (ANU)",
+      "University of New South Wales (UNSW)",
+      "Monash University",
+      "University of Queensland",
+      "Deakin University"
+    ],
+    "keyBenefits": [
+      "Post-Study Work Visa of 2 to 4+ years depending on qualification & city",
+      "Work up to 48 hours per fortnight during studies and full-time during breaks",
+      "Streamlined Genuine Student (GS) visa framework",
+      "High minimum wage and excellent standard of living",
+      "Strong permanent residency pathways in regional states"
+    ],
+    "admissionRequirements": [
+      "Minimum 60-65% in prior academic studies",
+      "IELTS / PTE Academic score (PTE 58+ / IELTS 6.5)",
+      "Meeting Genuine Student (GS) criteria and financial proof",
+      "Overseas Student Health Cover (OSHC)"
+    ]
+  },
+  {
+    "id": "europe",
+    "slug": "europe",
+    "name": "Europe / Schengen",
+    "tagline": "Affordable Tuition, Rich Culture & 29 Schengen Countries Visa-Free",
+    "capital": "Multiple (Berlin, Paris, Rome, Amsterdam)",
+    "currency": "EUR (\u20ac)",
+    "language": "English, German, French",
+    "flag": "\ud83c\uddea\ud83c\uddfa",
+    "image": "/images/Europe-Schengen-Region.jpg",
+    "overview": "Europe offers high-ranking universities in Germany, France, Ireland, Italy, and Poland with zero or very low tuition fees, English-taught programs, and unrestricted travel across 29 Schengen member states.",
+    "popularUniversities": [
+      "Technical University of Munich (TUM)",
+      "Trinity College Dublin",
+      "University College Dublin (UCD)",
+      "Heidelberg University",
+      "Sorbonne University Paris",
+      "Politecnico di Milano",
+      "Erasmus University Rotterdam"
+    ],
+    "keyBenefits": [
+      "Tuition-free or low-cost education in public German & European universities",
+      "1 to 2-year post-study job seeker visa (Ireland, Germany, France)",
+      "Visa-free travel across all 29 Schengen member states",
+      "EU Blue Card pathway for fast-track permanent residence",
+      "English-taught undergraduate and master's degree programs"
+    ],
+    "admissionRequirements": [
+      "Good academic standing (60%+)",
+      "IELTS / PTE / TOEFL / Medium of Instruction certificate",
+      "Blocked account or proof of living funds (\u20ac11,208/year for Germany)",
+      "Statement of Purpose and CV in Europass format"
+    ]
+  },
+  {
+    "id": "new-zealand",
+    "slug": "new-zealand",
+    "name": "New Zealand",
+    "tagline": "Safe, Peaceful Nation with Globally Ranked Universities & Post-Study Work",
+    "capital": "Wellington",
+    "currency": "NZD ($)",
+    "language": "English",
+    "flag": "\ud83c\uddf3\ud83c\uddff",
+    "image": "/images/New-Zealand.jpg",
+    "overview": "New Zealand is known for its pristine natural beauty, 100% of universities ranked in the top 3% worldwide, practical skills-focused learning, and attractive post-study work rights.",
+    "popularUniversities": [
+      "University of Auckland",
+      "University of Otago",
+      "Victoria University of Wellington",
+      "University of Canterbury",
+      "Massey University",
+      "Auckland University of Technology (AUT)"
+    ],
+    "keyBenefits": [
+      "Up to 3-Year Post-Study Work Visa for master's and degree graduates",
+      "Work rights for partners of master's degree students",
+      "Ranked as one of the most peaceful and corruption-free countries",
+      "Practical, research-oriented and innovation-driven education",
+      "Straightforward Green List PR pathways for skilled occupations"
+    ],
+    "admissionRequirements": [
+      "Minimum 55-60% in previous education",
+      "IELTS score of 6.0 for UG and 6.5 for PG",
+      "Proof of funds (NZD $20,000/year living expense + tuition)",
+      "Medical certificate and chest X-ray"
+    ]
+  },
+  {
+    "id": "dubai",
+    "slug": "dubai",
+    "name": "Dubai (UAE)",
+    "tagline": "Global Business Hub, Tax-Free Income & Rapid Visa Approvals",
+    "capital": "Abu Dhabi / Dubai",
+    "currency": "AED (\u062f.\u0625)",
+    "language": "English & Arabic",
+    "flag": "\ud83c\udde6\ud83c\uddea",
+    "image": "/images/Dubai-UAE.jpg",
+    "overview": "Dubai has rapidly transformed into a global education and employment hub, hosting branch campuses of prestigious UK, Australian, and US universities with 100% visa success rate and zero income tax.",
+    "popularUniversities": [
+      "University of Birmingham Dubai",
+      "Heriot-Watt University Dubai",
+      "Middlesex University Dubai",
+      "University of Wollongong in Dubai",
+      "Manipal Academy of Higher Education Dubai",
+      "Amity University Dubai"
+    ],
+    "keyBenefits": [
+      "Simple, fast visa processing with near 100% approval rate",
+      "Transfer opportunities to UK/Australia home campuses after 1st year",
+      "100% tax-free employment and business earnings",
+      "10-Year Golden Visa opportunities for top students & investors",
+      "World's safest and most connected cosmopolitan city"
+    ],
+    "admissionRequirements": [
+      "High School or Bachelor's marksheets (50%+)",
+      "Passport copy and passport photos",
+      "English proficiency or university internal English test",
+      "Tuition fee deposit"
+    ]
+  },
+  {
+    "id": "singapore",
+    "slug": "singapore",
+    "name": "Singapore",
+    "tagline": "Asia's Premier Education & Financial Hub with World Top 10 Universities",
+    "capital": "Singapore",
+    "currency": "SGD ($)",
+    "language": "English, Mandarin, Malay",
+    "flag": "\ud83c\uddf8\ud83c\uddec",
+    "image": "/images/Singapore.jpg",
+    "overview": "Singapore is Asia's financial powerhouse, home to world-renowned universities (NUS, NTU) and top international private institutes offering internationally recognized dual degree programs.",
+    "popularUniversities": [
+      "National University of Singapore (NUS)",
+      "Nanyang Technological University (NTU)",
+      "Singapore Management University (SMU)",
+      "James Cook University Singapore",
+      "Curtin Singapore",
+      "PSB Academy / SIM Global"
+    ],
+    "keyBenefits": [
+      "Home to NUS and NTU (Ranked in World Top 15 Universities)",
+      "Extremely safe, clean, and advanced infrastructure",
+      "Proximity to India with short travel times",
+      "Tuition grants and government subsidies available for selected programs",
+      "Asian headquarters for thousands of multinational corporations"
+    ],
+    "admissionRequirements": [
+      "Strong academic record (65%+ for private / 85%+ for public universities)",
+      "IELTS / PTE / TOEFL score (or medium of instruction in English)",
+      "Financial proof for tuition and living funds",
+      "Student's Pass application via SOLAR system"
+    ]
+  }
+]

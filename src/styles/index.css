@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    @apply bg-white text-theme-body antialiased;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-theme-heading font-bold;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    letter-spacing: normal;
+  }
+}
+
+@layer components {
+  .qo-container {
+    @apply mx-auto w-full max-w-[1360px] px-5;
+  }
+
+  .qo-eyebrow {
+    @apply mb-3 block text-sm font-bold uppercase tracking-[.16em] text-[#e20935];
+  }
+
+  .qo-display {
+    @apply text-[36px] font-bold leading-[1.15] text-[#16171a] sm:text-[48px];
+  }
+
+  .qo-input {
+    @apply min-h-[54px] w-full border-0 bg-[#f5f5f7] px-4 py-3 text-sm text-[#16171a] outline-none transition-shadow placeholder:text-[#8a8c94] focus:ring-2 focus:ring-[#e20935]/30;
+  }
+}
+
+.qo-reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition:
+    opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.qo-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .qo-reveal,
+  .qo-reveal.is-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Custom styles matching Visaland / Quantum Overseas Theme */
+.theme-btn {
+  @apply inline-flex items-center justify-center font-semibold rounded-md transition-all duration-300 px-7 py-3.5 text-white bg-theme-primary hover:bg-theme-primaryHover shadow-md hover:shadow-lg transform hover:-translate-y-0.5;
+}
+
+.theme-btn-outline {
+  @apply inline-flex items-center justify-center font-semibold rounded-md transition-all duration-300 px-7 py-3.5 text-theme-primary border-2 border-theme-primary hover:bg-theme-primary hover:text-white;
+}
+
+.theme-btn-dark {
+  @apply inline-flex items-center justify-center font-semibold rounded-md transition-all duration-300 px-7 py-3.5 text-white bg-theme-secondary hover:bg-theme-secondaryDark shadow-md hover:shadow-lg;
+}
+
+/* Shapes and overlays */
+.hero-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(16, 26, 41, 0.92) 0%,
+    rgba(16, 26, 41, 0.75) 50%,
+    rgba(16, 26, 41, 0.4) 100%
+  );
+}
+
+.breadcrumb-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(16, 26, 41, 0.88) 0%,
+    rgba(16, 26, 41, 0.94) 100%
+  );
+}
+
+/* =========================================================
+   GET A CALL BACK + MAP
+   Matches the supplied reference layout:
+   - 710px desktop height
+   - background photo on left
+   - red angled polygon
+   - black diagonal divider
+   - clipped Google map on right
+   ========================================================= */
+
+.qo-callback-section {
+  position: relative;
+  width: 100%;
+  height: 710px;
+  min-height: 710px;
+  overflow: hidden;
+  isolation: isolate;
+  background-color: #ececef;
+  background-image: url('/images/01-4-1024x554.jpg');
+  background-position: 37% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Light wash over the photo to mimic the soft reference image */
+.qo-callback-image-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Exact-style red angled polygon */
+.qo-callback-red-shape {
+  position: absolute;
+  inset: 0 auto 0 0;
+  z-index: 2;
+  width: 57%;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      112deg,
+      rgba(235, 48, 88, 0.96) 0%,
+      rgba(225, 21, 65, 0.94) 48%,
+      rgba(203, 0, 42, 0.95) 100%
+    );
+  -webkit-clip-path: polygon(
+    0 0,
+    69% 0,
+    100% 60%,
+    88% 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    69% 0,
+    100% 60%,
+    88% 100%,
+    0 100%
+  );
+}
+
+/* Black diagonal shell behind the map */
+.qo-callback-map-shell {
+  position: absolute;
+  inset: 0 0 0 auto;
+  z-index: 1;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  background: #141518;
+  -webkit-clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/* Inner clip leaves a narrow black diagonal separator */
+.qo-callback-map-inner {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-clip-path: polygon(37% 0, 100% 0, 100% 100%, 2.3% 100%);
+  clip-path: polygon(37% 0, 100% 0, 100% 100%, 2.3% 100%);
+  background: #e7eaee;
+}
+
+.qo-callback-map-inner iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  filter: saturate(0.83) brightness(1.04);
+}
+
+/* Aligns the form to the same x-position as the reference at 1855px */
+.qo-callback-content {
+  position: relative;
+  z-index: 5;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: max(24px, calc((100vw - 1160px) / 2));
+  padding-right: 24px;
+}
+
+.qo-callback-form-wrap {
+  width: 528px;
+  max-width: 100%;
+  margin-top: -1px;
+}
+
+.qo-callback-heading {
+  margin-bottom: 25px;
+}
+
+.qo-callback-eyebrow {
+  display: block;
+  margin-bottom: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.qo-callback-heading h2 {
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 48px;
+  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: -0.7px;
+}
+
+.qo-callback-form {
+  width: 100%;
+}
+
+.qo-callback-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.qo-callback-control {
+  width: 100%;
+  height: 62px;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  background: #ffffff;
+  color: #404040;
+  padding: 0 28px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  box-shadow: none;
+  transition:
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.qo-callback-control::placeholder {
+  color: #6f6f6f;
+  opacity: 1;
+}
+
+.qo-callback-control:focus {
+  box-shadow: inset 0 0 0 2px rgba(22, 23, 26, 0.3);
+}
+
+.qo-callback-select-wrap {
+  position: relative;
+}
+
+.qo-callback-select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 52px;
+  cursor: pointer;
+  color: #444444;
+}
+
+.qo-callback-select-icon {
+  position: absolute;
+  top: 50%;
+  right: 19px;
+  width: 18px;
+  height: 18px;
+  color: #5d5d5d;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.qo-callback-textarea {
+  display: block;
+  height: 154px;
+  min-height: 154px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  line-height: 1.5;
+  resize: none;
+  margin-bottom: 23px;
+}
+
+.qo-callback-submit {
+  min-width: 244px;
+  height: 60px;
+  border: 0;
+  border-radius: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 34px 0 41px;
+  background: #16171a;
+  color: #ffffff;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: none;
+  transition:
+    background-color 0.22s ease,
+    transform 0.22s ease;
+}
+
+.qo-callback-submit:hover {
+  background: #0b0c0e;
+}
+
+.qo-callback-submit:active {
+  transform: translateY(1px);
+}
+
+.qo-callback-submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.qo-callback-alert {
+  min-height: 42px;
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.qo-callback-alert-error {
+  background: rgba(20, 21, 24, 0.88);
+  color: #ffffff;
+}
+
+.qo-callback-alert-success {
+  background: rgba(255, 255, 255, 0.95);
+  color: #1f6d3b;
+}
+
+/* Tablet */
+@media (max-width: 1199px) {
+  .qo-callback-content {
+    padding-left: 6vw;
+  }
+
+  .qo-callback-form-wrap {
+    width: 500px;
+  }
+
+  .qo-callback-heading h2 {
+    font-size: 44px;
+  }
+}
+
+/* Mobile / small tablet: stack form and map cleanly */
+@media (max-width: 991px) {
+  .qo-callback-section {
+    height: auto;
+    min-height: 0;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .qo-callback-image-overlay {
+    background: rgba(0, 0, 0, 0.04);
+  }
+
+  .qo-callback-red-shape {
+    position: absolute;
+    inset: 0 0 auto 0;
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(
+      120deg,
+      rgba(233, 42, 83, 0.97) 0%,
+      rgba(209, 0, 43, 0.95) 100%
+    );
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+
+  .qo-callback-content {
+    height: auto;
+    min-height: 650px;
+    padding: 62px 24px;
+    justify-content: center;
+  }
+
+  .qo-callback-form-wrap {
+    width: min(620px, 100%);
+    margin: 0;
+  }
+
+  .qo-callback-map-shell {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: 460px;
+    -webkit-clip-path: none;
+    clip-path: none;
+    z-index: 5;
+  }
+
+  .qo-callback-map-inner {
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+}
+
+@media (max-width: 639px) {
+  .qo-callback-red-shape {
+    height: 760px;
+  }
+
+  .qo-callback-content {
+    min-height: 760px;
+    padding: 50px 18px;
+  }
+
+  .qo-callback-heading {
+    margin-bottom: 22px;
+  }
+
+  .qo-callback-eyebrow {
+    font-size: 13px;
+  }
+
+  .qo-callback-heading h2 {
+    font-size: 38px;
+  }
+
+  .qo-callback-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .qo-callback-control {
+    height: 58px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+  }
+
+  .qo-callback-select {
+    padding-right: 48px;
+  }
+
+  .qo-callback-textarea {
+    height: 138px;
+    min-height: 138px;
+    margin-bottom: 18px;
+    padding-top: 18px;
+  }
+
+  .qo-callback-submit {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .qo-callback-map-shell {
+    height: 390px;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e20935;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c0072c;
+}
+
+/* Continuous Logo Marquee */
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-scroll {
+  display: flex;
+  width: max-content;
+  animation: marqueeScroll 28s linear infinite;
+}
+
+.animate-marquee-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* =========================================================
+   COMPREHENSIVE VISA SOLUTIONS
+   Exact layout treatment for the supplied Quantum reference
+   ========================================================= */
+.qo-comprehensive-solutions {
+  width: 100%;
+  overflow: hidden;
+  background: #ffffff;
+  padding: 12px 0 0;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.qo-comprehensive-container {
+  width: 100%;
+  max-width: 1108px;
+  margin: 0 auto;
+  padding: 0 27px;
+}
+
+.qo-comprehensive-heading {
+  max-width: 900px;
+  margin: 0 auto 29px;
+  text-align: center;
+}
+
+.qo-comprehensive-eyebrow {
+  display: block;
+  margin: 0 0 12px;
+  color: #f00b37;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+
+.qo-comprehensive-heading h2 {
+  margin: 0;
+  color: #17171a;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 41px;
+  line-height: 1.12;
+  font-weight: 700;
+  letter-spacing: -0.55px;
+}
+
+.qo-comprehensive-card {
+  width: 100%;
+  background: #ffffff;
+  padding: 68px 40px 58px;
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0 3px 24px rgba(26, 27, 33, 0.055);
+}
+
+.qo-comprehensive-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 72px;
+  row-gap: 20px;
+}
+
+.qo-comprehensive-item {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  min-height: 89px;
+  gap: 26px;
+}
+
+.qo-comprehensive-icon {
+  width: 89px;
+  height: 89px;
+  flex: 0 0 89px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #f5f5fd;
+  color: #ff0a3b;
+}
+
+.qo-solution-svg {
+  width: 38px;
+  height: 38px;
+  display: block;
+  overflow: visible;
+  stroke: currentColor;
+  stroke-width: 1.55;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.qo-visa-svg-text {
+  fill: currentColor;
+  stroke: none;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+}
+
+.qo-comprehensive-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  color: #1a1a1d;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.42;
+  font-weight: 700;
+  letter-spacing: -0.12px;
+}
+
+/* Keep long reference rows naturally taller while preserving icon alignment. */
+.qo-comprehensive-item:has(.qo-comprehensive-title) {
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .qo-comprehensive-solutions {
+    padding-top: 32px;
+  }
+
+  .qo-comprehensive-container {
+    padding: 0 20px;
+  }
+
+  .qo-comprehensive-heading {
+    margin-bottom: 30px;
+  }
+
+  .qo-comprehensive-heading h2 {
+    font-size: 36px;
+  }
+
+  .qo-comprehensive-card {
+    padding: 44px 30px;
+  }
+
+  .qo-comprehensive-grid {
+    grid-template-columns: 1fr;
+    row-gap: 18px;
+  }
+}
+
+@media (max-width: 639px) {
+  .qo-comprehensive-solutions {
+    padding-top: 26px;
+  }
+
+  .qo-comprehensive-container {
+    padding: 0 16px;
+  }
+
+  .qo-comprehensive-eyebrow {
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: 1.05px;
+  }
+
+  .qo-comprehensive-heading h2 {
+    font-size: 29px;
+    line-height: 1.16;
+    letter-spacing: -0.35px;
+  }
+
+  .qo-comprehensive-heading h2 br {
+    display: none;
+  }
+
+  .qo-comprehensive-card {
+    padding: 30px 20px 34px;
+  }
+
+  .qo-comprehensive-item {
+    min-height: 76px;
+    gap: 18px;
+  }
+
+  .qo-comprehensive-icon {
+    width: 76px;
+    height: 76px;
+    flex-basis: 76px;
+  }
+
+  .qo-solution-svg {
+    width: 34px;
+    height: 34px;
+  }
+
+  .qo-comprehensive-title {
+    font-size: 15px;
+    line-height: 1.42;
+  }
+}
